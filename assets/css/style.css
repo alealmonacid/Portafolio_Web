@@ -38,7 +38,7 @@ transition: all 1s ease-out;
 }
 
 .cell-2 {
-  background:url('../img/ladoizquierdo.png') #e9dddd;
+  background:url('../img/ladoizquierdo.png') #F2F2F2;
   background-blend-mode: multiply;
   background-size:cover;
   width: 50%;
@@ -47,7 +47,7 @@ transition: all 1s ease-out;
 }
 
 .cell-2:hover {
-  background-color: #A62F2F;
+  background-color: #ec8f8f;
 
 }
 h2{
