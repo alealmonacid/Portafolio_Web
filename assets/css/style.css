@@ -89,14 +89,14 @@ p{
     border-radius: 15px;
     width: 180px;
     height: 40px;
-    background-color: #EC6367;
-    border: 3px solid#F2F2F2;
-    color:  #F2F2F2;
+    background-color: #F2F2F2;
+    border: 3px solid #EC6367;
+    color:  #EC6367;
     transition: 0.3s 
   }
   .btn_blanco:hover{
     border-radius: 15px;
-    width: 200px;
+    width: 180px;
     height: 40px;
     background-color: #F2F2F2;
     border: 3px solid#F2F2F2;
@@ -105,40 +105,14 @@ p{
   }
   .btn_blanco:active{
     border-radius: 15px;
-    width: 150px;
+    width: 180px;
     height: 40px;
     background-color: #F2F2F2;
     border: 3px solid#F2F2F2;
     color:  #000000;
     transition: 0.3s 
   }
-  .btn_rojo{
-    border-radius: 15px;
-    width: 180px;
-    height: 40px;
-    background-color: #F2F2F2;
-    border: 3px solid #EC6367;
-    color:  #EC6367;
-    transition: 0.3s 
-  }
-  .btn_rojo:hover{
-    border-radius: 15px;
-    width: 200px;
-    height: 40px;
-    background-color: #EC6367;
-    border: 3px solid#EC6367;
-    color:  #F2F2F2;
-    transition: 0.3s 
-  }
-  .btn_rojo:active{
-    border-radius: 15px;
-    width: 150px;
-    height: 40px;
-    background-color: #EC6367;
-    border: 3px solid#EC6367;
-    color:  #000000;
-    transition: 0.3s 
-  }
+  
   
   .img-perfil {
     width: 49%;
@@ -147,37 +121,96 @@ p{
     left: 26%;
     
 }
-
-@media only screen and (max-width:910) {
-.img-perfil {
-    width: 60%;
-  position: fixed;
-  bottom: -44px;
-  left: 20%;
-}
-}
-@media only screen and (max-width:1200px) {
-.img-perfil {
-    width: 60%;
-  position: fixed;
-  bottom: -75px;
-  left: 20%;
-}
-}
-
-@media only screen and (max-width:500px) {
-  h2{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 2rem;
+@media only screen and (max-width:1150px) {
+  .img-perfil {
+      width: 60%;
+    position: fixed;
+    bottom: -75px;
+    left: 20%;
+  }
+  .tags{
+    display: none;
+  }
+  
+  }
+@media only screen and (max-width:910px) {
+  .img-perfil {
+      width: 60%;
+    position: fixed;
+    bottom: -44px;
+    left: 20%;
   }
   }
-  @media only screen and (max-width:830PX) {
-    .tags{
-      display: none;
+
+  @media only screen and (max-width:770px) {
+    h2{
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 2rem;
+  }
     }
+    @media only screen and (max-width:550px) {
+      h2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 1.3rem;
     }
+    .btn_blanco {
+      border-radius: 15px;
+      width: 126px;
+      height: 66px;
+      background-color: #F2F2F2;
+      border: 3px solid #EC6367;
+      color: #EC6367;
+      transition: 0.3s;
+    }
+    .btn_blanco:hover{
+      border-radius: 15px;
+      width: 126px;
+      height: 66px;
+      background-color: #F2F2F2;
+      border: 3px solid#F2F2F2;
+      color:  #EC6367;
+      transition: 0.3s 
+    }
+    .btn_blanco:active{
+      border-radius: 15px;
+      width: 126px;
+      height: 66px;
+      background-color: #F2F2F2;
+      border: 3px solid#F2F2F2;
+      color:  #000000;
+      transition: 0.3s 
+    }
+    .quien-soy {
+      margin: 30% 5% 5% 5%;
+      background-color: #F2F2F2;
+      border-radius: 25px;
+      color: black;
+      padding: 5%;
+      text-align: center;
+      align-items: center;
+      vertical-align: middle;
+    }
+    .mi-pega {
+      margin: 30% 5% 5% 5%;
+      background-color: black;
+      border-radius: 25px;
+      color: #f2f2f2;
+      padding: 5%;
+      text-align: center;
+      align-items: center;
+      vertical-align: middle;
+    }
+    .logo {
+     display: none;
+    }
+      }
+
+
+  
 
 .logo{
   
