@@ -127,7 +127,7 @@ box-shadow: 0px 0px 64px 1px rgba(0,0,0,0.75);
     left: 26%; 
 }
 
-img[alt="imgperfil"]:hover {
+img[alt="imgperfil"]:hover{
   content:url("../img/perfil2.png");
  }
 
