@@ -50,11 +50,31 @@ transition: all 1s ease-out;
   background-color: #ec8f8f;
 
 }
+h1{
+  font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+}
 h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-style: italic;
     font-size: 3rem;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+    font-size: 2rem;
+}
+h6{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+li{
+  font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 p{
   padding: 0% 10% 0% 10%;
@@ -260,3 +280,22 @@ img[alt="imgperfil"]:hover{
 
   
   
+
+
+
+
+  .nav-logo{
+    width: 12.282497441146367vh;
+  }
+  .nav-item{
+    margin-left: 25%;
+    text-align: center;
+  }
+  .gridcolor{
+    border-radius: 25px;
+    background-color: #F2F2F2;
+    padding: 3%;
+  }
+  .escudos-escuela{
+    width: 25%;
+  }
