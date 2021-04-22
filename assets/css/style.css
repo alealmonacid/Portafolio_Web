@@ -69,6 +69,9 @@ p{
     text-align: center;
     align-items: center;
     vertical-align: middle;
+    -webkit-box-shadow: 0px 0px 64px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 64px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 64px 1px rgba(0,0,0,0.75);
   }
   .mi-pega{
     margin: 10%;
@@ -79,6 +82,9 @@ p{
     text-align: center;
     align-items: center;
     vertical-align:middle;
+    -webkit-box-shadow: 0px 0px 64px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 64px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 64px 1px rgba(0,0,0,0.75);
   }
 .contenido .ladoderecho {
     width: 50%;
@@ -92,7 +98,7 @@ p{
     background-color: #F2F2F2;
     border: 3px solid #EC6367;
     color:  #EC6367;
-    transition: 0.3s 
+    transition: 0.3s; 
   }
   .btn_blanco:hover{
     border-radius: 15px;
@@ -101,7 +107,7 @@ p{
     background-color: #F2F2F2;
     border: 3px solid#F2F2F2;
     color:  #EC6367;
-    transition: 0.3s 
+    transition: 0.3s;
   }
   .btn_blanco:active{
     border-radius: 15px;
@@ -110,7 +116,7 @@ p{
     background-color: #F2F2F2;
     border: 3px solid#F2F2F2;
     color:  #000000;
-    transition: 0.3s 
+    transition: 0.3s;
   }
   
   
@@ -118,9 +124,13 @@ p{
     width: 49%;
     position: fixed;
     bottom: -20%;
-    left: 26%;
-    
+    left: 26%; 
 }
+
+img[alt="imgperfil"]:hover {
+  content:url("../img/perfil2.png");
+ }
+
 @media only screen and (max-width:1150px) {
   .img-perfil {
       width: 60%;
